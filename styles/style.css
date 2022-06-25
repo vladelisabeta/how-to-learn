@@ -13,7 +13,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  border: solid coral 1px;
   /* выше установили ограничения для секции */
   display: flex;
 }
@@ -31,6 +30,7 @@
   height: 96px;
   font-size: 102px;
   font-weight: 700;
+  z-index: 3;
 }
 
 .header__subtitle{
@@ -41,6 +41,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__main-illustration{
@@ -76,6 +77,49 @@
 }
 
 .description{
+ display: flex;
+ margin-top: 100px;
+ border: 2px solid crimson;
+}
+
+.two-columns{
+  margin: auto;
+  margin-bottom: 100px;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+  display: flex;
+  border: 2px solid crimson;
+}
+.two-columns__brief{
+  width: 175px;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  right: 50px;
+  border: 2px solid crimson;
+}
+
+.two-columns__main-text{
+  border: 2px solid crimson;
+  display: flex;
+  flex-direction: column;
+}
+
+.two-columns__paragraph{
+margin-bottom: 30px;
+height: 34px;
+font-size: 24px;
+font-weight: normal;
+border: 2px solid crimson;
+align-self: baseline;
+
+}
+.span-accent{
+height: 34px;
+font-size: 24px;
+font-weight: 700;
 
 }
 
