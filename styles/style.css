@@ -13,6 +13,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  border: solid coral 1px;
   /* выше установили ограничения для секции */
 }
 
@@ -20,6 +21,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +30,24 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.content{
+
+}
+
+.description{
+
+}
+
+.digits{
+
+}
+
+.feynman{
+
+}
+
+.kaufman{
+
 }
