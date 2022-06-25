@@ -15,6 +15,42 @@
   max-height: 756px;
   border: solid coral 1px;
   /* выше установили ограничения для секции */
+  display: flex;
+}
+
+.logo_place_header{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+
+.header__title{
+  margin: auto;
+  margin-left: 64px;
+  width: 730px;
+  height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+}
+
+.header__subtitle{
+  width: 388px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__main-illustration{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -22,6 +58,9 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+  position: absolute;
+  margin-top: 64px;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
