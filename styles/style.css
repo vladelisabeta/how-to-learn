@@ -131,7 +131,39 @@ font-weight: 700;
 .digits{
 
 }
+.section-title{
+width: 60%;
+line-height: 1.15px;
+font-size: 60px;
+font-weight: 700;
+}
+.section-subtitle{
+width: 60%;
+line-height: 34px;
+font-size: 24px;
+margin-top: 20px;
+}
+.table{
+  width:1100px ;
+  margin-top: 60px ;
 
+}
+.table__heading{
+ line-height: 1.15px;
+ font-size: 24px;
+ margin-bottom: 20px;
+ font-weight: 700;
+}
+.table__cell{
+  list-style: none;
+  width: 250px;
+}
+
+.table__text{
+line-height: 1.2px;
+font-size: 18px;
+font-weight:normal;
+}
 .feynman{
 
 }
