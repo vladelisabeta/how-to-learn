@@ -172,6 +172,8 @@ margin-bottom: 20px;
 }
 .table__cell{
   width: 250px;
+  box-sizing: border-box;
+  
 
 }
 
