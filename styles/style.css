@@ -276,3 +276,54 @@ row-gap: 80px;
 .table__text_theme_dark{
   color: #fff;
 }
+
+.footer{
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns{
+  flex-basis: 711px;
+  width: 90%;
+  border: solid seashell 1px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer__column_content_copyright{
+
+}
+
+.footer__column_content_info{
+
+}
+.footer__column_content_social{
+
+}
+.logo_place_footer{
+  position: top left;
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author{
+
+}
+
+.footer__column-heading{
+  border: burlywood 1px solid;
+
+}
+
+.footer__column-links{
+
+}
+
+.footer__social-icon{
+
+}
+
+.footer__column-link{
+
+}
