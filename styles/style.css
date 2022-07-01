@@ -78,10 +78,6 @@
   margin-top: 80px;
 }
 
-.content{
-
-}
-
 .description{
  margin-top: 100px;
 
@@ -121,7 +117,6 @@ font-weight: normal;
 text-align: left;
 
 }
-
 .two-columns__paragraph:not(:first-of-type):not(:last-of-type){
   margin: 30px 0 30px 0;
 }
@@ -130,12 +125,8 @@ text-align: left;
 line-height: 34px;
 font-size: 24px;
 font-weight: 600;
-
 }
 
-.digits{
-
-}
 .section-title{
   margin-top: 100px;
   text-align: center;
@@ -315,10 +306,6 @@ font-weight: normal;
 color: #fff;
 }
 
-
-.footer__column_content_info{
-
-}
 
 .footer__column-heading{
   margin: 0;
