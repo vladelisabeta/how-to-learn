@@ -242,8 +242,8 @@ margin-top: 90px;
 }
 
 .table_theme_dark{
+row-gap: 0px;
 margin-bottom: 90px;
-row-gap: 80px;
 }
 
 .table__heading_theme_dark{
@@ -256,6 +256,7 @@ row-gap: 80px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+
 }
 
 .table__text_theme_dark{
@@ -264,7 +265,7 @@ row-gap: 80px;
 
 .footer{
   background-color: #1f1f1f;
-  min-height: 350px;
+  min-height: 250px;
   padding: 60px 0 40px 0;
 }
 
