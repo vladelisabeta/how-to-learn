@@ -9,6 +9,12 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+@keyframes rotation{
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -17,6 +23,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .logo_place_header{
@@ -70,6 +77,7 @@
   position: absolute;
   margin-top: 64px;
   right: 0;
+  animation: rotation infinite 20s linear;
 }
 
 
@@ -116,6 +124,82 @@ font-size: 24px;
 font-weight: 600;
 }
 
+
+.techniques{
+  width: 80%;
+  margin: auto;
+}
+
+.cards{
+  width: 920px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 60px;
+
+}
+
+.cards__item{
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.cards__image{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 40px 43px;
+
+
+}
+
+.cards__title{
+margin: 0 0 16px 0;
+line-height: 1.15;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+}
+
+.cards__description{
+text-align: center;
+margin: 0;
+line-height: 23px;
+font-size: 18px;
+font-weight: normal;
+}
+
+/* VIDEO */
+.video{
+margin-top: 100px;
+margin-bottom: -40px;
+}
+.video__iframes{
+display: flex;
+justify-content: center;
+}
+.video__iframe{
+ width: 515px;
+ height: 316px;
+ margin-top: 50px;
+ z-index: 4;
+}
+.video__iframe:not(:last-of-type) {
+  margin-right: 20px;
+ }
+
+/* OAKLI */
+.oakley{
+  background-color: #f2f2f2;
+
+}
+
+
 .section-title{
   margin-top: 100px;
   text-align: center;
@@ -135,13 +219,12 @@ font-weight: 600;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-bottom: 60px;
+
 }
 .table{
 list-style: none;
 display: flex;
 flex-direction: row;
-row-gap: 60px;
 justify-content: space-between;
 flex-wrap: wrap;
 width: 1100px;
@@ -155,7 +238,7 @@ line-height: 1.15;
 font-size: 24px;
 font-weight: 600;
 margin-bottom: 20px;
-margin-top: 0;
+margin-top: 60px;
 }
 
 .table__cell{
