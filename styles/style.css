@@ -58,6 +58,11 @@
   text-decoration: none;
   color: #2f80ed;
 }
+.header__link:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
+
 
 .header__main-illustration{
   width: 765px;
@@ -293,9 +298,81 @@ text-align: center;
   margin: auto;
   text-decoration: none;
   color: #2f80ed;
-
+}
+.feynman__link:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
 }
 
+
+
+/*KHAN*/
+.khan{
+margin: auto;
+background-color: #f2f2f2;
+}
+.khan__container{
+margin: auto;
+width: 80%;
+padding-top: 105px;
+}
+.khan__author{
+margin: 0;
+line-height: 42px;
+font-size: 30px;
+font-weight: normal;
+}
+.khan__title{
+margin-top: 0;
+margin-bottom: 50px;
+line-height: 1.15;
+font-size: 60px;
+font-weight: 600;
+}
+.khan__quote{
+width: 790px;
+margin: 0 0 36px;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+}
+.khan__quote-author{
+margin-top: 0;
+margin-bottom: 10px;
+line-height: 1.15;
+font-size: 24px;
+font-weight: 600;
+}
+.khan__quote-author-subline{
+margin: 0 0 68px 0;
+line-height: 1.15;
+font-size: 24px;
+font-weight: normal;
+}
+
+.khan__book-container{
+position: relative;
+}
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 48px;
+
+}
+.khan__buy-link{
+  position: absolute;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+.khan__buy-link:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
 
 
 .kaufman{
@@ -345,6 +422,36 @@ margin-bottom: 90px;
 .table__text_theme_dark{
   color: #fff;
 }
+
+/*RESOURCES*/
+.resources{
+
+}
+.resources__logo-zone{
+margin: auto;
+width: 1100px;
+margin-bottom: 217px;
+margin-top: 80px;
+}
+.resources__link{
+
+}
+.resources__link:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
+
+.resources__logo{
+  width: 270px;
+  height: 38px;
+
+}
+.resources__logo:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+
+}
+
 
 .footer{
   background-color: #1f1f1f;
@@ -405,6 +512,10 @@ color: #fff;
   display: inline;
 }
 
+.footer__social-icon:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
 
 .footer__column-links{
   box-sizing: border-box;
@@ -417,6 +528,11 @@ color: #fff;
   font-size: 18px;
   font-weight: normal;
 }
+.footer__column-links:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
+
 
 .footer__column-link{
   text-decoration: none;
