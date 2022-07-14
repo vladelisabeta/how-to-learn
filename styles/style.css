@@ -66,7 +66,6 @@
   bottom: 0;
   position: absolute;
   z-index: 1;
-
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -82,7 +81,7 @@
 
 
 .two-columns{
-  padding: 100px 0 100px 0;
+  padding-top: 100px;
   margin: auto;
   display: flex;
   width: 80%;
@@ -177,17 +176,18 @@ font-weight: normal;
 /* VIDEO */
 .video{
 margin-top: 100px;
-margin-bottom: -40px;
+margin-bottom: -60px;
 }
 .video__iframes{
 display: flex;
 justify-content: center;
+margin-top: 50px;
 }
 .video__iframe{
  width: 515px;
  height: 316px;
- margin-top: 50px;
  z-index: 4;
+ border: 0;
 }
 .video__iframe:not(:last-of-type) {
   margin-right: 20px;
@@ -196,19 +196,18 @@ justify-content: center;
 /* OAKLI */
 .oakley{
   background-color: #f2f2f2;
-
+  padding-top: 60px;
 }
 
 
 .section-title{
-  margin-top: 100px;
+  margin: 100px auto 20px;
   text-align: center;
-  margin: auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
   width: 60%;
-  margin-bottom: 20px;
+
 
 
 }
