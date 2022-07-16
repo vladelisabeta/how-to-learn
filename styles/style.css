@@ -464,6 +464,10 @@ margin-top: 80px;
   min-height: 250px;
  }
 
+.footer__column{
+
+}
+
 .footer__column_content_copyright{
   flex-basis: 711px;
   box-sizing: border-box;
@@ -533,4 +537,9 @@ color: #fff;
   text-decoration: none;
   color: #fff;
 }
+.footer__column-link:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
+
 

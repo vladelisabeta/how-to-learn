@@ -1,0 +1,15 @@
+.footer__column-links{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__column-links:hover{
+  opacity: 40%;
+  transition:linear 0.3s ;
+}
