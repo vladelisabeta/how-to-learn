@@ -26,6 +26,9 @@
   overflow: hidden;
 }
 
+
+/*ВЕРУНТЬСЯ К ЛОГО!!!!!!!!!!!!!!!*/
+
 .logo_place_header{
   position: absolute;
   margin-top: 30px;
@@ -116,7 +119,6 @@ font-size: 24px;
 font-weight: normal;
 text-align: left;
 margin: 0;
-
 }
 .two-columns__paragraph:not(:first-of-type):not(:last-of-type){
   margin: 30px 0 30px 0;
@@ -149,8 +151,6 @@ font-weight: 600;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
 
 .cards__image{
@@ -158,8 +158,6 @@ font-weight: 600;
   height: 160px;
   border-radius: 50%;
   margin: 60px 40px 40px 43px;
-
-
 }
 
 .cards__title{
@@ -212,9 +210,6 @@ margin-top: 50px;
   font-size: 60px;
   font-weight: 700;
   width: 60%;
-
-
-
 }
 .section-subtitle{
   text-align: center;
@@ -223,7 +218,6 @@ margin-top: 50px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-
 }
 .table{
 list-style: none;
@@ -235,7 +229,6 @@ width: 1100px;
 margin: auto;
 margin-bottom: 100px;
 padding: 0;
-
 }
 .table__heading{
 line-height: 1.15;
@@ -351,7 +344,7 @@ font-weight: normal;
 }
 
 .khan__book-container{
-position: relative;
+display: flex;
 }
 .khan__book-pic{
   width: 620px;
@@ -359,16 +352,16 @@ position: relative;
   object-fit: cover;
   object-position: top;
   margin-right: 48px;
-
 }
+
 .khan__buy-link{
-  position: absolute;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
 }
+
 .khan__buy-link:hover{
   opacity: 40%;
   transition:linear 0.3s ;
@@ -389,6 +382,7 @@ position: relative;
   position: absolute;
   right:-210px;
   top: 0;
+  animation: rotation 1 20s linear;
 }
 
 .section-title_theme_dark{
@@ -423,7 +417,7 @@ margin-bottom: 90px;
   color: #fff;
 }
 
-/*RESOURCES*/
+/*RESOURCES ИХ НЕТ!!!!!!!!!!!!!!!*/
 .resources{
 
 }
@@ -433,6 +427,7 @@ width: 1100px;
 margin-bottom: 217px;
 margin-top: 80px;
 }
+/*их тоже нет!!!!!!!!!!!*/
 .resources__link{
 
 }
