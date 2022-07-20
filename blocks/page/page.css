@@ -4,12 +4,3 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-@keyframes rotation{
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.rotation{
-  animation: rotation infinite 20s linear;
-}
