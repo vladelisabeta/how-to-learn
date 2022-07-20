@@ -1,6 +1,3 @@
 .cards__item{
   width: 240px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
